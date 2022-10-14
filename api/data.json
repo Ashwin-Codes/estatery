@@ -1,0 +1,82 @@
+[
+	{
+		"url": "https://images.unsplash.com/photo-1570129477492-45c003edd2be?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80 870w",
+		"name": "Beverly Springfield",
+		"price": "2700",
+		"address": "2821 Lake Sevilla, Palm Harbor, TX",
+		"type": "house",
+		"location": "newyork"
+	},
+	{
+		"url": "https://images.unsplash.com/photo-1570129477492-45c003edd2be?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80 870w",
+		"name": "Palm Harbor",
+		"price": "2095",
+		"address": "2699 Green Valley, Highland Lake, FL",
+		"type": "house",
+		"location": "newyork"
+	},
+	{
+		"url": "https://images.unsplash.com/photo-1570129477492-45c003edd2be?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80 870w",
+		"name": "Faulkner Ave",
+		"price": "4550",
+		"address": "909 Woodland St, Michigan, IN",
+		"type": "penthouse",
+		"location": "mumbai"
+	},
+	{
+		"url": "https://images.unsplash.com/photo-1570129477492-45c003edd2be?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80 870w",
+		"name": "Beverly Springfield",
+		"price": "2700",
+		"address": "979 Roguski Road, Louisiana, LA",
+		"type": "penthouse",
+		"location": "toronto"
+	},
+	{
+		"url": "https://images.unsplash.com/photo-1570129477492-45c003edd2be?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80 870w",
+		"name": "The Ivies",
+		"price": "1300",
+		"address": "979 Roguski Road, Louisiana, LA",
+		"type": "apartment",
+		"location": "mumbai"
+	},
+	{
+		"url": "https://images.unsplash.com/photo-1570129477492-45c003edd2be?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80 870w",
+		"name": "Primrose View",
+		"price": "3000",
+		"address": "979 Roguski Road, Louisiana, LA",
+		"type": "studio",
+		"location": "siliconvalley"
+	},
+	{
+		"url": "https://images.unsplash.com/photo-1570129477492-45c003edd2be?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80 870w",
+		"name": "Cherry End",
+		"price": "1000",
+		"address": "979 Roguski Road, Louisiana, LA",
+		"type": "studio",
+		"location": "siliconvalley"
+	},
+	{
+		"url": "https://images.unsplash.com/photo-1570129477492-45c003edd2be?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80 870w",
+		"name": "Orchardside",
+		"price": "5000",
+		"address": "909 Woodland St, Michigan, IN",
+		"type": "penthouse",
+		"location": "siliconvalley"
+	},
+	{
+		"url": "https://images.unsplash.com/photo-1570129477492-45c003edd2be?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80 870w",
+		"name": "Primroseways",
+		"price": "450",
+		"address": "909 Woodland St, Michigan, IN",
+		"type": "apartment",
+		"location": "mumbai"
+	},
+	{
+		"url": "https://images.unsplash.com/photo-1570129477492-45c003edd2be?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80 870w",
+		"name": "Rabbit's End",
+		"price": "3075",
+		"address": "909 Woodland St, Michigan, IN",
+		"type": "apartment",
+		"location": "toronto"
+	}
+]
