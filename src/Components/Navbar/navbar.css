@@ -3,12 +3,12 @@
 	width: 100%;
 	border-top: 1px solid #eeeef0;
 	border-bottom: 1px solid #eeeef0;
-	height: 3.5rem;
+	height: 4rem;
 }
 
 .wrapper {
 	height: 100%;
-	width: 75%;
+	width: 85%;
 	margin: 0 auto;
 
 	display: flex;
@@ -53,4 +53,13 @@
 	color: #7e77ad;
 	background-color: #e1e1ff;
 	border-radius: 4px;
+}
+
+@media screen and (max-width: 500px) {
+	.logo {
+		display: none;
+	}
+	.wrapper {
+		justify-content: center;
+	}
 }

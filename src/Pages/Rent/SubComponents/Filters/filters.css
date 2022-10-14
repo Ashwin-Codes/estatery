@@ -1,0 +1,135 @@
+.filter-wrapper {
+	background-color: #fff;
+	padding: 1rem 3rem;
+}
+
+.filter-wrapper form {
+	max-width: 100%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.filter {
+	border-right: 2px solid #b6b5bc;
+	width: 10rem;
+	letter-spacing: 2px;
+}
+
+.filter h2 {
+	color: #b6b5bc;
+	font-size: 0.8rem;
+	max-width: max-content;
+}
+
+.filter input {
+	border: none;
+	letter-spacing: 1px;
+	font-weight: bold;
+	max-width: 100%;
+	width: 90%;
+}
+
+.filter p {
+	font-size: 0.8rem;
+	font-weight: bold;
+}
+
+.filter select {
+	border: none;
+	letter-spacing: 1px;
+	font-weight: bold;
+	background-color: transparent;
+	max-width: 100%;
+	width: 90%;
+}
+
+.filter select option {
+	background-color: #fff;
+	color: black;
+}
+
+.filter-price-input-wrapper {
+	display: flex;
+	width: 80%;
+}
+
+.filter-price-input-wrapper div {
+	display: flex;
+}
+
+.filter-submit-btn {
+	background-color: #6e66ef;
+	border: none;
+	color: #fff;
+	width: 8rem;
+	height: 2.5rem;
+	border-radius: 8px;
+}
+
+@media screen and (max-width: 1300px) {
+	.filter h2 {
+		font-size: 0.6rem;
+	}
+
+	.filter p {
+		font-size: 0.6rem;
+	}
+	.filter select {
+		font-size: 0.7rem;
+	}
+	input {
+		font-size: 0.7rem;
+	}
+}
+
+@media screen and (max-width: 1080px) {
+	.filter-submit-btn {
+		width: 6rem;
+		height: 2.5rem;
+	}
+}
+
+@media screen and (max-width: 1000px) {
+	.filter-wrapper {
+		padding: 1rem 1rem;
+	}
+}
+
+@media screen and (max-width: 940px) {
+	.filter-wrapper form {
+		flex-direction: column;
+	}
+	.filter {
+		max-width: 100%;
+		margin-top: 1rem;
+		width: 90%;
+	}
+
+	.filter-price-input-wrapper {
+		justify-content: flex-start;
+	}
+
+	.filter-price-input-wrapper div {
+		width: 75%;
+	}
+	.filter-price-input-wrapper input {
+		width: 75%;
+	}
+}
+
+@media screen and (max-width: 380px) {
+	.filter-submit-btn {
+		height: 2rem;
+	}
+}
+
+@media screen and (max-width: 250px) {
+	.filter-wrapper {
+		padding: 1rem 0.25rem;
+	}
+	.filter-submit-btn {
+		height: 1.5rem;
+		width: 5rem;
+	}
+}

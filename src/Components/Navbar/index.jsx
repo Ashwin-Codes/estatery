@@ -6,6 +6,12 @@ import { RiHomeSmile2Fill as Logo } from "react-icons/ri";
 import { NavLink } from "react-router-dom";
 
 export default function Index({ children }) {
+	const links = [
+		{ path: "/rent", text: "Rent" },
+		{ path: "/buy", text: "Buy" },
+		{ path: "/sell", text: "Sell" },
+	];
+
 	return (
 		<>
 			<nav className="navbar">
@@ -15,25 +21,19 @@ export default function Index({ children }) {
 						Estatery
 					</p>
 					<ul className="navlinks">
-						<li>
-							<NavLink className="navbar-navlink" to={"/rent"}>
-								Rent
-							</NavLink>
-						</li>
-						<li>
-							<NavLink className="navbar-navlink" to={"/buy"}>
-								Buy
-							</NavLink>
-						</li>
-						<li>
-							<NavLink className="navbar-navlink" to={"/sell"}>
-								Sell
-							</NavLink>
-						</li>
+						{links.map((link) => {
+							return (
+								<li key={link.path}>
+									<NavLink className="navbar-navlink" to={link.path}>
+										{link.text}
+									</NavLink>
+								</li>
+							);
+						})}
 					</ul>
 				</div>
 			</nav>
-			<main className="app-main">{children}</main>
+			<div className="app-main">{children}</div>
 		</>
 	);
 }
