@@ -11,12 +11,15 @@ import "./rent.css";
 import Filters from "./SubComponents/Filters";
 import Properties from "./SubComponents/Properties";
 
+// Api Url
+const URL = "http://65.0.92.225:5000/api/estatery";
+
 export default function Index() {
 	const dispatch = useDispatch();
 
 	useEffect(() => {
 		async function getData() {
-			const res = await fetch("http://localhost:5000/api/estatery");
+			const res = await fetch(URL);
 			const data = await res.json();
 			dispatch(propertyActions.setProperties(data));
 			dispatch(propertyActions.setFilteredProperties(data));
